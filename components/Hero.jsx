@@ -7,9 +7,9 @@ const Hero = () => {
     <section className='relative pt-24 pb-12 xl:py-0 xl:h-[1887px] flex justify-center items-center'>
       {/* Image as a background */}
       <Image 
-        className='absolute inset-0 -z-20 object-cover' // Use absolute positioning for the image
-        src='/hero/backgg.jpg' // Make sure the path is correct
-        layout='fill' // Use layout 'fill' to cover the section
+        className='absolute inset-0 -z-20 object-cover'
+        src='./hero/backgg.jpg'
+        layout='fill' 
         alt='Hero background' 
       />
       
