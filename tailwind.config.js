@@ -7,9 +7,9 @@ module.exports = {
 	  "./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
-		background: {
-			back:"url('/backgg.jpg')"
-		},
+		backgroundImage: {
+			'back': "url('/backgg.jpg')", 
+		  },
 	  extend: {
 		colors: {
 		  white: '#fff',
