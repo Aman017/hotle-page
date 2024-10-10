@@ -29,7 +29,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.4 }}
             className='flex-1 relative'>
             <Image
-              src={'./public/about/img2.png'}
+              src={'./about/img2.png'}
               width={559}
               height={721}
               alt='About Hotel'
