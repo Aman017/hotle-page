@@ -23,7 +23,7 @@ const Footer = () => {
             <div className='xl:w-[470px] mb-6 xl:mb-0'>
               <Link href='/'>
                 <Image
-                  src='./footer/Hottle.png'
+                  src='./public/footer/Hottle.png'
                   width={89}
                   height={78}
                   alt='Hotel Logo'

@@ -12,7 +12,7 @@ import { fadeIn } from '@/varriants';
 const recommendationData = [
     {
         name: 'The Luxe Haven',
-        image: './recommendation/hotel-1.png',
+        image: './public/recommendation/hotel-1.png',
         location: 'Miami Beach, Florida',
         desc: 'A chic beachfront hotel offering stylish rooms with ocean views, a luxurious spa, and a vibrant rooftop bar. Enjoy the lively atmosphere of Miami while relaxing in ultimate comfort.',
         price: 400,
@@ -23,7 +23,7 @@ const recommendationData = [
     },
     {
         name: 'Urban Oasis Hotel',
-        image: './recommendation/hotel-2.png',
+        image: './public/recommendation/hotel-2.png',
         location: 'New York City, New York',
         desc: 'Nestled in the heart of Manhattan, this contemporary hotel features modern amenities, a serene courtyard, and easy access to iconic attractions. Perfect for travelers seeking the pulse of the city.',
         price: 300,
