@@ -7,7 +7,7 @@ import Featured from "@/components/ui/Featured";
 import Recommendation from "@/components/ui/Recommendation";
 import Find from "@/components/ui/Find";
 import Testimonials from "@/components/ui/Testimonials";
-import './globals.css'; // Adjust the path if necessary
+
 
 
 export default function Home() {
