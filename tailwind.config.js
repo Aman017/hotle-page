@@ -8,11 +8,6 @@ module.exports = {
 	],
 	theme: {
 	  extend: {
-		backgroundImage:{
-			bg:"url('/hero/backgg.jpg')",
-			bgimg:"url('/hero/backjj.jpg')",
-
-		},
 		colors: {
 		  white: '#fff',
 		  black: '#273029',
