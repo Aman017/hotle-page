@@ -8,22 +8,22 @@ import Image from 'next/image'
 
 const hotelData=[
     {
-        image: './public/find/hotel-1.png',
+        image: './find/hotel-1.png',
         name: 'Coastal Breeze Hotel',
         location: 'Santa Monica, California'
     },
     {
-        image: './public/find/hotel-2.png',
+        image: './find/hotel-2.png',
         name: 'Mountain Retreat Lodge',
         location: 'Aspen, Colorado'
     },
     {
-        image: './public/find/hotel-3.png',
+        image: './find/hotel-3.png',
         name: 'Cityscape Suites',
         location: 'Chicago, Illinois'
     },
     {
-        image: './public/find/hotel-4.png',
+        image: './find/hotel-4.png',
         name: 'Lakeside Resort',
         location: 'Lake Tahoe, Nevada'
     }

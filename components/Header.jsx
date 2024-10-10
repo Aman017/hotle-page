@@ -13,7 +13,7 @@ const Header = () => {
         <div className='flex items-center justify-between text-center'>
           {/* logo */}
           <Link href='/'>
-          <Image className="bg-white rounded-full"  src='./public/footer/Hottle.png'
+          <Image className="bg-white rounded-full"  src='./footer/Hottle.png'
           width={75}
           height={20}
           alt='hotel'

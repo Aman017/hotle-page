@@ -9,13 +9,13 @@ import React from 'react';
 
 const testimonialData = [
     {
-        img: './public/testimonials/img-1.png',
+        img: './testimonials/img-1.png',
         message: 'This hotel exceeded all my expectations! The staff was incredibly welcoming and attentive. From the moment I arrived, I felt right at home. The views from my room were breathtaking, showcasing the beauty of the surrounding landscape. I particularly enjoyed the luxurious amenities, especially the spa and pool areas. Each meal at the hotel restaurant was a culinary delight, featuring fresh and locally sourced ingredients. I can honestly say that my experience here was nothing short of perfect. I left feeling rejuvenated and eager to return. I highly recommend this hotel to anyone looking for a relaxing getaway.',
         personName: 'Alice Johnson',
         location: 'San Francisco, CA',
     },
     {
-        img: './public/testimonials/img-2.png',
+        img: './testimonials/img-2.png',
         message: 'A perfect getaway! The amenities were fantastic, and I loved every moment of my stay. The location was ideal, just a stone’s throw away from local attractions and beautiful beaches. Each day was filled with fun activities and relaxation. The staff was friendly and went out of their way to make my stay enjoyable. My room was spacious, beautifully decorated, and equipped with everything I needed. I particularly loved the sunrise views from my balcony. The hotel also offered a variety of dining options, each more delicious than the last. I couldn’t have asked for a better experience, and I can’t wait to come back!',
         personName: 'Michael Smith',
         location: 'New York, NY',
