@@ -1,13 +1,14 @@
-import Image from 'next/image';
-import SearchBox from './SearchBox'; // Adjust path as necessary
+import React from 'react'
+import SearchBox from './ui/SearchBox'
+import Image from 'next/image'
 
-export default function HeroSection() {
+const Hero = () => {
   return (
     <section className='relative pt-24 pb-12 xl:py-0 xl:h-auto flex justify-center items-center'>
       {/* Image as a background */}
       <Image 
         className='absolute inset-0 -z-20 object-cover'
-        src='./hero/backgg.jpg' // Use correct path
+        src='/hero/backgg.jpg' // Use correct path
         layout='fill' 
         alt='Hero background' 
       />
@@ -18,3 +19,5 @@ export default function HeroSection() {
     </section>
   );
 }
+
+export default Hero
