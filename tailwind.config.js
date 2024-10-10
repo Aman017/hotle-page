@@ -7,6 +7,9 @@ module.exports = {
 	  "./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		backgroundImage: {
+			bacg:"url('/backgg.jpg')"
+		},
 	  extend: {
 		colors: {
 		  white: '#fff',
