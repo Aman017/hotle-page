@@ -1,23 +1,14 @@
 import React from 'react'
 import SearchBox from './ui/SearchBox'
-import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className='relative pt-24 pb-12 xl:py-0 xl:h-auto flex justify-center items-center'>
-      {/* Image as a background */}
-      <Image 
-        className='absolute inset-0 -z-20 object-cover'
-        src='/hero/backgg.jpg' // Use correct path
-        layout='fill' 
-        alt='Hero background' 
-      />
-      
-      <div className="container mx-auto flex items-center justify-center relative z-10">
-        <SearchBox />
-      </div>
-    </section>
-  );
+ <section className='pt-24 pb-12 xl:py-0 xl:h-[1887px] bg-bg xl:bg-bgimg bg-cover bg-center bg-no-repeat flex justify-center items-center' >
+  <div className="container mx-auto flex items-center justify-center xl:justify-start ">
+    <SearchBox />
+  </div>
+ </section>
+  )
 }
 
 export default Hero
