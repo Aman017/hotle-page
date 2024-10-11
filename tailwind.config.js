@@ -60,7 +60,7 @@ module.exports = {
 				sm: 'calc(var(--radius) - 4px)',
 			},
 			backgroundImage: {
-				hero: "url('https://unsplash.com/photos/brown-nipa-hut-on-white-sand-beach-during-daytime-4aqH2utAPAs')",   
+				hero: "url('./hero/hero.jpg')",   
 			
 			},
 		},
