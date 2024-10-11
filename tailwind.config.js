@@ -60,8 +60,8 @@ module.exports = {
 				sm: 'calc(var(--radius) - 4px)',
 			},
 			backgroundImage: {
-				hero: "url('./hero/backgg.jpg')",
-				hero2: "url('./hero/backjj.jpg')"
+				hero: "url('./hero/backgg.jpg')",   
+				hero2: "url('./hero/backjj.jpg')",
 			},
 		},
 	},
