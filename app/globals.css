@@ -27,3 +27,11 @@
 .swiper-pagination-horizontal.swiper-pagination-bullet .swiper-pagination-bullet{
   @apply bg-white
 }
+
+/* globals.css */
+body {
+  background-image: url('/hero.jpg'); /* Use root-relative path */
+  background-size: cover; /* Ensures the background covers the whole area */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}

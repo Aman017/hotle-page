@@ -59,9 +59,7 @@ module.exports = {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)',
 			},
-			backgroundImage: {
-				hero: "url('/hero.jpg')", // Using root-relative path
-			},
+			
 			
 		},
 	},
