@@ -1,17 +1,18 @@
 import React from 'react'
 import SearchBox from './ui/SearchBox'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
  <section className='pt-24 pb-12 xl:py-0 bg-[#2A6599] xl:h-[1000px] flex justify-center items-center' >
   <div className="container mx-auto flex items-center justify-center xl:justify-start ">
-    <div>
+    <div className=' right-20'>
       <Image 
       src='./hero/hero.jpg'
       width={100}
       height={100}
       alt='oop'
-      className='rounded-full right-20 '
+      className='rounded-full '
       />
     </div>
     <SearchBox />
