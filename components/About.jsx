@@ -41,7 +41,7 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
-            className='max-w-full sm:max-w-[470px] flex-1 relative px-4 sm:px-6 lg:px-8'>
+            className='max-w-full md:max-w-[470px] flex-1 relative md:absolute px-4 sm:px-6 lg:px-8'>
             <h2 className='h2 mb-[20px] text-xl md:text-2xl'>
               About Hotel <span className='text-sm'>For You</span>
             </h2>
