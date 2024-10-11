@@ -6,7 +6,7 @@ const YourComponent = () => {
     <section className='pt-24 pb-12 xl:py-0 bg-[#2A6599] xl:h-[1000px] flex justify-center items-center'>
       <div className="container mx-auto flex items-center justify-between">
         {/* Image Wrapper */}
-        <div className='relative flex-shrink-0'>
+        <div className='relative flex-shrink-0 hidden lg:block'> {/* Hide on small screens */}
           <Image 
             src='./hero/hero.jpg' // Ensure this path is correct
             width={800} // Default width
