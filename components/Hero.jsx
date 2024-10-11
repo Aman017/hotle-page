@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import SearchBox from './SearchBox'; // Adjust this import based on your file structure
+import SearchBox from './ui/SearchBox';
 
 const YourComponent = () => {
   return (
@@ -8,7 +8,7 @@ const YourComponent = () => {
         {/* Image Wrapper */}
         <div className='relative flex-shrink-0'>
           <Image 
-            src='/hero/hero.jpg' // Ensure this path is correct
+            src='./hero/hero.jpg' // Ensure this path is correct
             width={800} // Default width
             height={800} // Set height equal to width
             alt='Profile Image' 
