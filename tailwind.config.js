@@ -60,8 +60,8 @@ animation:{
 		  sm: 'calc(var(--radius) - 4px)',
 		},
 		backgroundImage: {
-		  hero: 'url(./hero/backgg.jpg)',
-		  hero2: 'url(./hero/backjj,jpg)',
+		  hero: 'url(/backgg.jpg)',
+		  hero2: 'url(/backjj,jpg)',
 		},
 	  },
 	},
