@@ -7,10 +7,29 @@ module.exports = {
 	  "./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
-		backgroundImage: {
-			'back': "url('/hero/backgg.jpg')", 
-		  },
+		container:{
+			center:true,
+			padding: "2rem",
+		},
+		
 	  extend: {
+		keyframes:{
+			'according-down,':{
+				form :{height: 0 },
+				to:{height: 'var(--radix-according-content-height)'},
+			
+			},
+			'according-up':{
+from: {height: 'var(--radix-according-content-height)'},
+to: {height : 0 },
+
+},
+animation:{
+	'accordion -down': 'acccording-down 0.2s ease-out',
+	'according-up': 'according-up 0.2s ease-out',
+},
+
+		},
 		colors: {
 		  white: '#fff',
 		  black: '#273029',
@@ -41,8 +60,8 @@ module.exports = {
 		  sm: 'calc(var(--radius) - 4px)',
 		},
 		backgroundImage: {
-		  hero: 'url(/hero/bg.png)',
-		  hero2: 'url(/hero/bg-2.png)',
+		  hero: 'url(./hero/backgg.jpg)',
+		  hero2: 'url(./hero/backjj,jpg)',
 		},
 	  },
 	},
