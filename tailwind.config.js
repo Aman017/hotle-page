@@ -25,7 +25,7 @@ module.exports = {
 
 				},
 				animation: {
-					'accordion -down': 'acccording-down 0.2s ease-out',
+					'according-down': 'acccording-down 0.2s ease-out',
 					'according-up': 'according-up 0.2s ease-out',
 				},
 
@@ -60,9 +60,9 @@ module.exports = {
 				sm: 'calc(var(--radius) - 4px)',
 			},
 			backgroundImage: {
-				hero: "url('./hero.jpg')",   
-			
+				hero: "url('./hero.jpg')", // Using root-relative path
 			},
+			
 		},
 	},
 	plugins: [require("tailwindcss-animate")],
