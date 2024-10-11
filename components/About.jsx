@@ -20,7 +20,7 @@ const About = () => {
   return (
     <section className='py-12 xl:pt-0 xl:pb-24' ref={ref}>
       <div className='container mx-auto'>
-        <div className='flex flex-col xl:flex-row items-center'>
+        <div className='flex flex-col sm:flex-row items-center'>
           <motion.div
             variants={fadeIn('left', 0.2)}
             initial='hidden'
