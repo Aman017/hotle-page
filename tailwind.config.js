@@ -59,10 +59,10 @@ module.exports = {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)',
 			},
-			backgroundImage: {
-				hero: "url('./hero/backgg.jpg')",   
-				hero2: "url('./hero/backjj.jpg')",
-			},
+			// backgroundImage: {
+			// 	hero: "url('./hero/backgg.jpg')",   
+			// 	hero2: "url('./hero/backjj.jpg')",
+			// },
 		},
 	},
 	plugins: [require("tailwindcss-animate")],
