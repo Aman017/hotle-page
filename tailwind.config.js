@@ -59,10 +59,10 @@ module.exports = {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)',
 			},
-			// backgroundImage: {
-			// 	hero: "url('./hero/backgg.jpg')",   
-			// 	hero2: "url('./hero/backjj.jpg')",
-			// },
+			backgroundImage: {
+				hero: "url('https://unsplash.com/photos/brown-nipa-hut-on-white-sand-beach-during-daytime-4aqH2utAPAs')",   
+			
+			},
 		},
 	},
 	plugins: [require("tailwindcss-animate")],
