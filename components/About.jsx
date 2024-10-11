@@ -20,7 +20,7 @@ const About = () => {
   return (
     <section className='py-12 xl:pt-0 xl:pb-24' ref={ref}>
       <div className='container mx-auto'>
-        <div className='flex flex-col sm:flex-row items-center'>
+        <div className='flex flex-col lg:flex-row items-center'>
           <motion.div
             variants={fadeIn('left', 0.2)}
             initial='hidden'
@@ -41,7 +41,7 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4 }}
-            className='max-w-full md:max-w-[470px] flex-1 relative px-4 sm:px-6 lg:px-8'>
+            className='max-w-full sm:max-w-[470px] flex-1 relative px-4 sm:px-6 lg:px-8'>
             <h2 className='h2 mb-[20px] text-xl md:text-2xl'>
               About Hotel <span className='text-sm'>For You</span>
             </h2>
