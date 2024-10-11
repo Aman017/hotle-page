@@ -12,7 +12,7 @@ const Hero = () => {
     layout='fill'
     objectFit='cover'
     quality={100}
-    className='-z-1 bg-cover bg-center bg-no-repeat'
+    className='-z-11 pt-24 pb-12 xl:py-0 xl:h-[1887px] flex justify-center items-center bg-cover bg-center bg-no-repeat'
     />
   <div className="container mx-auto flex items-center justify-center xl:justify-start ">
     <SearchBox />
